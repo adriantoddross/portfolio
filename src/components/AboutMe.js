@@ -15,7 +15,9 @@ export default function AboutMe(props) {
         I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming video games.
       </p>
 
-      <p>Currently, I'm looking for a full-time job. Feel free to email me with any opportunties.</p>
+      <p>
+        Currently, I'm looking for a full-time job. Feel free to email me with any opportunties.
+      </p>
     </section>
   );
 }
