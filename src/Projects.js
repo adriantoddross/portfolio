@@ -1,4 +1,4 @@
-export default projects = [
+const projects = [
   {
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1527625925/SafeR%20Preview.png',
     title: 'SafeR',
@@ -12,3 +12,5 @@ export default projects = [
     link: 'https://keen-jang-ca814b.netlify.com/'
   }
 ];
+
+export default projects;
