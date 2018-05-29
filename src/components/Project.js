@@ -12,3 +12,10 @@ export default function Project(props) {
     </div>
   );
 }
+
+Project.defaultProps = {
+  image: '',
+  title: 'Project coming soon!',
+  description: "This project isn't finished yet, but will be added soon!",
+  link: ''
+}
