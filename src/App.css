@@ -1,1 +1,16 @@
+/* For mobile phones: */
+.App {
+  margin: 50px;
+}
+
+.banner {
+  color: blue;
+}
+
+
+
+/* For desktop: */
+ /* @media only screen and (min-width: 768px) {
+} */
+
 
