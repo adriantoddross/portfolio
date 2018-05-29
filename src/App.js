@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import About from './components/AboutMe';
-import Links from './components/Links';
-import Projects from './components/List';
+import Portfolio from './components/Portfolio';
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header/>
+        <Header/>
+        <Portfolio/>
       </div>
     );
   }
