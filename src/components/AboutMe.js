@@ -3,9 +3,9 @@ import React from 'react';
 export default function AboutMe(props) {
   return (
     <section>
-      <h2>
+      <p>
         Hey there! I'm <b>Adrian</b>, a full stack developer and graphic designer living in Atlanta, Georgia.
-      </h2>
+      </p>
       <p>
         I have experience building and deploying web apps and working collaboratively through pair programming and alongside project teams. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for testing and deployment. I care a lot about accessibility, semantic code, and user experience.
       </p>
