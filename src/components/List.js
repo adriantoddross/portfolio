@@ -3,9 +3,6 @@ import Project from './Project';
 import Portfolio from '../Projects';
 
 export default function List(props) {
-  // const portfolio = [
-  //   {}
-  // ];
 
   const projects = Portfolio.map(project =>
     <li key={project.title}>
