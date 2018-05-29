@@ -6,7 +6,7 @@ export default function Project(props) {
       <div>
         <img src={props.image} alt=""/>
       </div>
-      <h1>{props.title}</h1>
+      <h3>{props.title}</h3>
       <p>{props.description}</p>
       <a href={props.link}>Live Demo</a>
     </div>
