@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function AboutMe(props) {
-  return(
+  return (
     <section>
       <h1>
         Yo Adrian, I did it!
