@@ -3,9 +3,6 @@ import React from 'react';
 export default function AboutMe(props) {
   return (
     <section>
-      <h1>
-        I eat crunchy peanut butter out of the jar.
-      </h1>
       <p>
         Hey there! I'm <b>Adrian</b>, a full stack developer and graphic designer living in Atlanta, Georgia.
       </p>
