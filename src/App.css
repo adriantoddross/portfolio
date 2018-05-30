@@ -4,6 +4,15 @@
   margin: 7vw;
 }
 
+.banner {
+  color: black;
+}
+
+.main-content {
+  color: #575757;
+  font-size: 125%;
+}
+
 .email {
   font-weight: bold;
   text-decoration: none;
@@ -62,6 +71,7 @@
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 5px;
 }
 
 .project-link {
@@ -70,11 +80,19 @@
 }
 
 .SafeR > div {
-  background-color: #79BE87;
+  background-color: rgb(162, 209, 172);
+}
+
+.SafeR img {
+  box-shadow: 3px 3px 7px 3px #79BE87;
 }
 
 .Simlify > div {
-  background-color: #79BE87;
+  background-color: rgb(106, 115, 165);
+}
+
+.Simlify > img {
+  box-shadow: 3px 3px 7px 3px #4252B1;
 }
 
 /* For desktop: */
