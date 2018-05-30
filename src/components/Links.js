@@ -3,12 +3,12 @@ import React from 'react';
 export default function Links(props) {
   return(
     <div>
-      <ul>
+      <ul className="links">
         <li>
-          <a href="http://">Github</a>
+          <a className='github' href="http://https://github.com/adriantoddross" target="_blank" rel="noopener noreferrer">Github</a>
         </li>
         <li>
-          <a href="http://">LinkedIn</a>
+          <a className='linkedin' href="https://www.linkedin.com/in/adriantross/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
       </ul>
     </div>
