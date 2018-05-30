@@ -39,7 +39,13 @@
   padding: 0;
 }
 
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .project {
+  padding: 25px 0px;
   list-style: none;
 }
 
@@ -49,14 +55,7 @@
 
 .project-image-container {
   padding: 25px;
-}
-
-.SafeR > div {
-  background-color: #79BE87;
-}
-
-.Simlify > div {
-  background-color: #79BE87;
+  border-radius: 5px;
 }
 
 .project-image {
@@ -68,6 +67,14 @@
 .project-link {
   font-weight: bold;
   text-decoration: none;
+}
+
+.SafeR > div {
+  background-color: #79BE87;
+}
+
+.Simlify > div {
+  background-color: #79BE87;
 }
 
 /* For desktop: */
