@@ -8,7 +8,7 @@ export default function Project(props) {
       </div>
       <h2>{props.title}</h2>
       <p>{props.description}</p>
-      <a href={props.link}>Live Demo</a>
+      <a className='project-link' href={props.link}>Live Demo</a>
     </div>
   );
 }
