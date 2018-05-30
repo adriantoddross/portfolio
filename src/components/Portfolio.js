@@ -6,7 +6,7 @@ import Projects from './List';
 export default function Portfolio(props) {
   return (
     <div>
-      <main>
+      <main className='main-content'>
         <About/>
         <Links/>
         <Projects/>
