@@ -1,5 +1,75 @@
 /* For mobile phones: */
 
+.App {
+  margin: 7vw;
+}
+
+.email {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* .links-container {
+} */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.links > li {
+  font-weight: bold;
+  list-style: none;
+  margin-right: 15px;
+}
+
+.github {
+  color: #23292D;
+  text-decoration: none;
+}
+
+.linkedin {
+  color: #0677B4;
+  text-decoration: none;
+}
+
+.links, .project-list {
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  list-style: none;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-image-container {
+  padding: 25px;
+}
+
+.SafeR > div {
+  background-color: #79BE87;
+}
+
+.Simlify > div {
+  background-color: #79BE87;
+}
+
+.project-image {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* For desktop: */
  /* @media only screen and (min-width: 768px) {
 } */
