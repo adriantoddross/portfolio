@@ -14,7 +14,8 @@ export default function AboutMe(props) {
           I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming video games.
         </p> */}
         <p className='contact'>
-          Currently, I'm looking for a full-time job. Feel free to <a href="mailto:adriantoddross@gmail.com">email me</a> with any opportunties.
+          Currently, I'm looking for a full-time job. Feel free to <a
+          className='email' href="mailto:adriantoddross@gmail.com">email me</a> with any opportunties.
         </p>
       </section>
     </div>
