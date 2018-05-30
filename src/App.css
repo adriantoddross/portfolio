@@ -1,13 +1,23 @@
 /* For mobile phones: */
 .App {
-  margin: 50px;
+  margin: 25px;
 }
 
 .banner {
-  color: blue;
+  color: black;
 }
 
+.main-content {
+  color: #575757;
+}
 
+.email {
+  font-weight: bold;
+}
+
+img {
+  width: 25%;
+}
 
 /* For desktop: */
  /* @media only screen and (min-width: 768px) {
