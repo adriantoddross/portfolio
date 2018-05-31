@@ -1,7 +1,7 @@
 /* For mobile phones: */
 
 .App {
-  margin: 7vw;
+  padding: 7vw;
 }
 
 a:link    { color: #3344dd }  /* unvisited links */
@@ -18,12 +18,11 @@ a:active  { color: #bb1122 }  /* active links    */
   font-size: 125%;
 }
 
-.about {
-  margin-bottom: 50px;
-}
+/* .about {
+  margin-bottom: 25px;
+} */
 
 .email {
-  /* color: #2A5DB0; */
   font-weight: bold;
   text-decoration: none;
 }
