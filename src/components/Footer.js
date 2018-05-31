@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function Footer(props) {
   return (
-    <div className='separator'>
     <div className='footer-container'>
       <footer className='footer'>
         <div className='footer-img-container'>
@@ -18,7 +17,6 @@ export default function Footer(props) {
           © 2018 Adrian Ross
         </p>
       </footer>
-    </div>
     </div>
   );
 }

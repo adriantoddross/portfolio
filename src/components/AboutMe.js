@@ -3,7 +3,6 @@ import React from 'react';
 export default function AboutMe(props) {
   return (
     <div>
-      <div className='separator'>
         <section className='about'>
           <p className='intro'>
             Hey there! I'm <b>Adrian</b>, a full stack developer and graphic designer living in Atlanta, Georgia.
@@ -20,6 +19,5 @@ export default function AboutMe(props) {
           </p>
         </section>
       </div>
-    </div>
   );
 }
