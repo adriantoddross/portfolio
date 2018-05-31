@@ -2,7 +2,7 @@ const projects = [
   {
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1527625925/SafeR%20Preview.png',
     title: 'SafeR',
-    description: 'View and report local incidents in your community.',
+    description: 'View and report local incidents in your community. Built with Google Maps & Places APIs.',
     link: 'https://safer.netlify.com/map'
   },
   {
