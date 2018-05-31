@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe(props) {
   return (
     <div>
-      <section>
+      <section className='about'>
         <p className='intro'>
           Hey there! I'm <b>Adrian</b>, a full stack developer and graphic designer living in Atlanta, Georgia.
         </p>
