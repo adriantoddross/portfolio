@@ -6,7 +6,7 @@ export default function List(props) {
 
   const projects = Portfolio.map(project =>
     <li key={project.title} className='project'>
-      <Project image={project.image} title={project.title} description={project.description} link={project.link}/>
+      <Project image={project.image} title={project.title} stack={project.stack} description={project.description} repo={project.repo} link={project.link}/>
     </li>
   );
 
