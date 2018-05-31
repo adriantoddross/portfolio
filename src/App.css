@@ -57,20 +57,22 @@ a:active  { color: #bb1122 }  /* active links    */
 .projects-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .project {
   padding: 25px 0px;
   list-style: none;
+  margin-bottom: 25px;
 }
 
 .project-title {
+  color: black;
   font-weight: bold;
 }
 
 .project-image-container {
-  padding: 25px;
+  /* padding: 25px; */
   border-radius: 5px;
 }
 
@@ -81,45 +83,27 @@ a:active  { color: #bb1122 }  /* active links    */
   border-radius: 5px;
 }
 
-.project-link {
+.project-link, .project-repo {
   font-weight: bold;
   text-decoration: none;
-  /* color: #2A5DB0; */
+  margin-right: 25px;
 }
 
-.SafeR > div {
+/* .SafeR > div {
   background-color: rgb(162, 209, 172);
-}
+} */
 
-.SafeR img {
-  box-shadow: 3px 3px 7px 3px #79BE87;
-}
+/* .SafeR img {
+  box-shadow: 3px 3px 1px 1px gray;
+} */
 
-.Simlify > div {
+/* .Simlify > div {
   background-color: rgb(150, 157, 201);
 }
 
 .Simlify > img {
   box-shadow: 3px 3px 7px 3px #4252B1;
-}
-
-.separator::before {
-  transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-
-  display: block;
-  margin: auto;
-	content:'';
-	width: 14px;
-	height: 14px;
-	border-radius: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	background: black;
-  box-shadow: 30px 0 black, -30px 0 black;
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
+} */
 
 .footer {
   text-align: center;
