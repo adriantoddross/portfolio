@@ -4,6 +4,11 @@
   margin: 7vw;
 }
 
+a:link    { color: #3344dd }  /* unvisited links */
+a:visited { color: #804180 }  /* visited links   */
+a:hover   { color: #bb1122}  /* user hovers     */
+a:active  { color: #bb1122 }  /* active links    */
+
 .banner {
   color: black;
 }
@@ -13,13 +18,19 @@
   font-size: 125%;
 }
 
+.about {
+  margin-bottom: 50px;
+}
+
 .email {
+  /* color: #2A5DB0; */
   font-weight: bold;
   text-decoration: none;
 }
 
-/* .links-container {
-} */
+.links-container {
+  margin-bottom: 100px;
+}
 
 .links {
   display: flex;
@@ -58,6 +69,7 @@
   list-style: none;
 }
 
+
 .project-title {
   font-weight: bold;
 }
@@ -77,6 +89,7 @@
 .project-link {
   font-weight: bold;
   text-decoration: none;
+  /* color: #2A5DB0; */
 }
 
 .SafeR > div {
@@ -88,7 +101,7 @@
 }
 
 .Simlify > div {
-  background-color: rgb(106, 115, 165);
+  background-color: rgb(150, 157, 201);
 }
 
 .Simlify > img {
