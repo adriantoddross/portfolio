@@ -18,7 +18,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
 a:link    { color: #3344dd }  /* unvisited links */
 a:visited { color: #884488 }  /* visited links   */
 a:hover   { color: #bb1122}  /* user hovers     */
@@ -33,9 +32,9 @@ a:active  { color: #bb1122}  /* active links    */
   text-decoration: none;
 }
 
-.links-container {
-  /* margin-bottom: 100px; */
-}
+/* .links-container {
+  margin-bottom: 100px;
+} */
 
 .links {
   display: flex;
@@ -82,7 +81,7 @@ a:active  { color: #bb1122}  /* active links    */
 }
 
 .project-image-container {
-  padding: 10px;
+  padding: 25px;
   border-radius: 5px;
 }
 
@@ -101,25 +100,25 @@ a:active  { color: #bb1122}  /* active links    */
 
 .project-stack {
   color: #2B2B2B;
-  font-size: 65%;
-  margin-top: -15px;
+  font-size: 75%;
+  /* margin-top: -15px; */
   text-transform: uppercase;
 }
 
 .SafeR > div {
   background-color: rgb(162, 209, 172);
-} */
+}
 
 .SafeR img {
-  box-shadow: 3px 3px 1px 1px gray;
+  box-shadow: 3px 3px 7px 2px rgb(87, 168, 104);
 }
 
 .Simlify > div {
   background-color: rgb(150, 157, 201);
 }
 
-.Simlify > img {
-  box-shadow: 3px 3px 7px 3px #4252B1;
+.Simlify img {
+  box-shadow: 3px 3px 7px 2px  rgb(55, 63, 110);
 }
 
 .footer {
