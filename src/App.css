@@ -2,6 +2,7 @@
 
 .App {
   padding: 7vw;
+  color: #575757;
 }
 
 a:link    { color: #3344dd }  /* unvisited links */
@@ -14,13 +15,8 @@ a:active  { color: #bb1122 }  /* active links    */
 }
 
 .main-content {
-  color: #575757;
   font-size: 125%;
 }
-
-/* .about {
-  margin-bottom: 25px;
-} */
 
 .email {
   font-weight: bold;
@@ -61,13 +57,13 @@ a:active  { color: #bb1122 }  /* active links    */
 .projects-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .project {
   padding: 25px 0px;
   list-style: none;
 }
-
 
 .project-title {
   font-weight: bold;
@@ -105,6 +101,18 @@ a:active  { color: #bb1122 }  /* active links    */
 
 .Simlify > img {
   box-shadow: 3px 3px 7px 3px #4252B1;
+}
+
+.footer {
+  text-align: center;
+}
+
+footer p:nth-child(2) {
+  font-weight: bold;
+}
+
+.attribution {
+  font-weight: normal;
 }
 
 /* For desktop: */
