@@ -104,8 +104,11 @@ a:active  { color: #bb1122 }  /* active links    */
 }
 
 .separator::before {
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+
   display: block;
-  margin: 0 auto;
+  margin: auto;
 	content:'';
 	width: 14px;
 	height: 14px;
