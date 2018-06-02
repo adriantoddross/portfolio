@@ -105,7 +105,6 @@ a:active  { color: #bb1122}  /* active links    */
 .project-stack {
   color: #2B2B2B;
   font-size: 75%;
-  /* margin-top: -15px; */
   text-transform: uppercase;
 }
 
@@ -146,33 +145,49 @@ footer p:nth-child(2) {
 /* For desktop: */
 @media only screen and (min-width: 768px) {
 
+  .main-content {
+    font-size: 175%;
+  border-top: 1px solid rgb(223, 223, 223);
+    
+  }
+
+  .banner {
+    font-size: 225%;
+    padding-bottom: 25px;
+  }
+
   .project-list {
     flex-flow: row wrap;
+    padding: 100px 0px;
   }
 
   .project {
     padding: 25px;
+    margin: 75px 0px;
     width: 500px;
-    height: 800px;
   }
 
   .project-desc {
-    height: 75px;
+    height: 125px;
   }
 
   .project-stack {
-    height: 40px;
+    height: 80px;
   }
 
   .project-image-container {
-    height: 500px;
     width: 500px;
     margin: 0 auto;
   }
-
+  
   .project-image {
     height: 300px;
     width: 500px;
+  }
+
+  .footer {
+    font-size: 140%;
+    text-align: center;
   }
 }
 
