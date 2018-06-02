@@ -30,7 +30,7 @@ a:focus { color: #bb1122 }
   line-height: 50px;
 }
 
-.section-header {
+.section-header, .a11y-text {
   display: none;
 }
 

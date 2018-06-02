@@ -8,7 +8,7 @@ export default function Project(props) {
       </div>
       <h2 className='project-title'>{props.title}</h2>
       <p className='project-desc'>{props.description}</p>
-      <p className='project-stack'>	&#x2014; {props.stack}</p>
+      <p className='project-stack'>	<span className='a11y-text'> Stack used: &#x2014;</span> {props.stack}</p>
       <a className='project-repo' href={props.repo}>Github Repo</a>
       <a className='project-link' href={props.link}>Live Demo</a>
     </div>
