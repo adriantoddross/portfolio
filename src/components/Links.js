@@ -3,6 +3,7 @@ import React from 'react';
 export default function Links(props) {
   return(
     <div className='links-container'>
+      <h2 className='section-header'>Contact Links</h2>
       <ul className="links">
         <li>
           <a className='email' href="mailto:adriantoddross@gmail.com">Email</a>

@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import Portfolio from '../Projects';
 
-export default function List(props) {
+export default function List (props) {
 
   const projects = Portfolio.map(project =>
     <li key={project.title} className='project'>
@@ -12,6 +12,7 @@ export default function List(props) {
 
   return (
     <div className='projects-container'>
+      <h2 className='section-header'>My Projects</h2>
       <ul className='project-list'>
         {projects}
       </ul>
