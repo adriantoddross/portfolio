@@ -5,7 +5,7 @@ export default function Footer(props) {
     <div className='footer-container'>
       <footer id='footer' className='footer' role='contentinfo'>
         <div className='footer-img-container'>
-          <img className='footer-img' src="https://res.cloudinary.com/adriantoddross/image/upload/v1527785141/adrian-ross.png" alt="null"/>
+          <img className='footer-img' src="https://res.cloudinary.com/adriantoddross/image/upload/v1527785141/adrian-ross.png" alt="Adrian Ross"/>
         </div>
         <p>
           Designed and developed by Adrian, <span className='attribution'>inspired by <a className='attribution' href="https://praneshravi.in/" target="_blank" rel="noopener noreferrer">Pranesh Ravi</a>.</span>
