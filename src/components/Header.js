@@ -18,7 +18,7 @@ export default function Header(props) {
 
   return (
     <div>
-      <header className="banner">
+      <header className="banner" role='banner'>
         <h1>
         {randomString}
         </h1>

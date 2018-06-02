@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer(props) {
   return (
     <div className='footer-container'>
-      <footer className='footer'>
+      <footer className='footer' role='contentinfo'>
         <div className='footer-img-container'>
           <img className='footer-img' src="https://res.cloudinary.com/adriantoddross/image/upload/v1527785141/adrian-ross.png" alt="null"/>
         </div>
