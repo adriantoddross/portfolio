@@ -5,7 +5,7 @@ const projects = [
     description: 'View and report local incidents in your community. Built with Google Maps & Places APIs.',
     stack: 'Node JS, React JS, React Native, Redux JS, MongoDB, Travis CI, Heroku, Netlify',
     repo: 'https://github.com/thinkful-ei18/maajac-client',
-    link: 'https://safer.netlify.com/map'
+    link: 'https://safer.netlify.com/'
   },
   {
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1527625925/Simlify%20Preview.png',
