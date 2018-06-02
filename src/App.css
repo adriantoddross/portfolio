@@ -21,9 +21,10 @@
 
 a:link    { color: #3344dd }  /* unvisited links */
 a:visited { color: #884488 }  /* visited links   */
-a:hover   { color: #bb1122 }  /* user hovers     */
-a:active  { color: #bb1122 }  /* active links    */
-a:focus { color: #bb1122 }
+a:hover   { color: #bb1122 !important }  /* user hovers     */
+a:active  { color: #bb1122 !important }  /* active links    */
+a:focus { color: #bb1122 !important }
+
 
 .main-content {
   font-size: 125%;
@@ -44,6 +45,13 @@ a:focus { color: #bb1122 }
 .skip-nav a {
   flex: 1;
   padding: 10px;
+  color: #FEFEFE;
+}
+
+.skip-nav a:focus,
+.skip-nav input:focus,
+.skip-nav button:focus { 
+
 }
 
 .links {
