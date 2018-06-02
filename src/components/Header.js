@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 export default function Header(props) {
 
@@ -18,7 +18,16 @@ export default function Header(props) {
 
   return (
     <div>
-      <header className="banner" role='banner'>
+      <nav>
+        <ul className='skip-nav'>
+          <a href='#joke'>Hear a joke</a>
+          <a href='#about'>Learn about me</a>
+          <a href='#contact'>Contact me</a>
+          <a href='#portfolio'>Skip to my portfolio</a>
+          <a href='#footer'>Read footer attribution</a>
+        </ul>
+      </nav>
+      <header id='joke' className="banner" role='banner'>
         <h1>
         {randomString}
         </h1>

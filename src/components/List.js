@@ -13,7 +13,7 @@ export default function List (props) {
   return (
     <div className='projects-container'>
       <h1 className='section-header'>My Projects</h1>
-      <ul className='project-list'>
+      <ul id='portfolio' className='project-list'>
         {projects}
       </ul>
     </div>
