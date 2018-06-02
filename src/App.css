@@ -144,27 +144,36 @@ footer p:nth-child(2) {
 }
 
 /* For desktop: */
- @media only screen and (min-width: 768px) {
-  
+@media only screen and (min-width: 768px) {
+
   .project-list {
     flex-flow: row wrap;
   }
 
   .project {
     padding: 25px;
+    width: 500px;
+    height: 800px;
   }
 
   .project-desc {
     height: 75px;
   }
-  
+
   .project-stack {
-     height: 40px;
-   }
+    height: 40px;
+  }
 
   .project-image-container {
     height: 500px;
+    width: 500px;
+    margin: 0 auto;
   }
-} 
+
+  .project-image {
+    height: 300px;
+    width: 500px;
+  }
+}
 
 
