@@ -1,8 +1,8 @@
 /* For mobile phones: */
 
 .App {
-  padding: 7vw;
   color: #575757;
+  padding: 7vw;
 }
 
 .App h1, h2 {
@@ -14,7 +14,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
- .App p {
+.App p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,6 +25,7 @@ a:active  { color: #bb1122}  /* active links    */
 
 .main-content {
   font-size: 125%;
+  line-height: 50px;
 }
 
 .email {
@@ -162,16 +163,16 @@ footer p:nth-child(2) {
 
   .project {
     padding: 25px;
-    margin: 75px 0px;
+    margin: 30px 0px;
     width: 500px;
   }
 
   .project-desc {
-    height: 125px;
+    height: 200px;
   }
 
   .project-stack {
-    height: 80px;
+    height: 145px;
   }
 
   .project-image-container {
