@@ -12,6 +12,7 @@
 
 .App a {
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .App p {
@@ -20,22 +21,18 @@
 
 a:link    { color: #3344dd }  /* unvisited links */
 a:visited { color: #884488 }  /* visited links   */
-a:hover   { color: #bb1122}  /* user hovers     */
-a:active  { color: #bb1122}  /* active links    */
+a:hover   { color: #bb1122 }  /* user hovers     */
+a:active  { color: #bb1122 }  /* active links    */
+a:focus { color: #bb1122 }
 
 .main-content {
   font-size: 125%;
   line-height: 50px;
 }
 
-.email {
-  font-weight: bold;
-  text-decoration: none;
+.section-header {
+  display: none;
 }
-
-/* .links-container {
-  margin-bottom: 100px;
-} */
 
 .links {
   display: flex;
@@ -51,12 +48,10 @@ a:active  { color: #bb1122}  /* active links    */
 
 .github {
   color: #23292D;
-  text-decoration: none;
 }
 
 .linkedin {
   color: #0677B4;
-  text-decoration: none;
 }
 
 .links, .project-list {
@@ -99,7 +94,6 @@ a:active  { color: #bb1122}  /* active links    */
 
 .project-link, .project-repo {
   font-weight: bold;
-  text-decoration: none;
   margin-right: 25px;
 }
 
@@ -140,7 +134,6 @@ footer p:nth-child(2) {
 
 .attribution {
   font-weight: normal;
-  text-decoration: none;
 }
 
 /* For desktop: */
