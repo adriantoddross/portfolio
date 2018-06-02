@@ -48,12 +48,6 @@ a:focus { color: #bb1122 !important }
   color: #FEFEFE;
 }
 
-.skip-nav a:focus,
-.skip-nav input:focus,
-.skip-nav button:focus { 
-
-}
-
 .links {
   display: flex;
   flex-direction: row;
