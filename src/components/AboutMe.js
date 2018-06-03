@@ -7,7 +7,7 @@ export default function AboutMe(props) {
         <section className='about'>
           <h2 className='section-header'>About Me</h2>
           <p className='intro'>
-            Hi! I'm <b>Adrian</b>, a full stack developer and graphic designer living in Atlanta, Georgia.
+            Hi! I'm <b>Adrian</b>, a full stack Javascript developer and graphic designer living in Atlanta, Georgia.
           </p>
         </section>
         <section>
