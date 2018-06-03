@@ -13,7 +13,7 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
-            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, semantic code, and user experience.
+            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, semantic code, and love creating inclusive user experiences.
           </p>
         </section>
           {/* <p>
