@@ -95,8 +95,9 @@ a:focus { color: #bb1122 !important }
 }
 
 .project-image-container {
-  padding: 25px;
   border-radius: 5px;
+  padding: 25px;
+  width: 100%;
 }
 
 .project-image {
@@ -184,7 +185,7 @@ footer p:nth-child(2) {
   }
 
   .project-image-container {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
   }
   
