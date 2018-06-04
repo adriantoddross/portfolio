@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe(props) {
   return (
     <div id='about'>
-        <h1 className='section-header'>Adrian Ross: Full Stack Web Dev & Graphic Designer</h1>      
+        <h1 className='section-header'>Adrian Ross: Full Stack Web Dev & Graphic Designer</h1>
         <section className='about'>
           <h2 className='section-header'>About Me</h2>
           <p className='intro'>
@@ -13,7 +13,7 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
-            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, semantic code, and love creating inclusive user experiences.
+            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, usability, and inclusion.
           </p>
         </section>
           {/* <p>
