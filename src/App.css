@@ -185,10 +185,11 @@ footer p:nth-child(2) {
   }
 
   .project-image-container {
-    width: 100%;
+    height: auto;
+    width: 500px;
     margin: 0 auto;
   }
-  
+
   .project-image {
     height: 300px;
     width: 500px;
