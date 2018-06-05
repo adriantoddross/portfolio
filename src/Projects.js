@@ -19,9 +19,9 @@ const projects = [
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1528221539/Coming_Soon_Preview.png',
     title: 'Windfall',
     stack: 'Express.js, React JS, Redux JS, PostgresQL, Heroku, Netlify',
-    description: 'Almost finished and coming soon! A simplified budgeting app created to help you keep track of which bills you\'ve paid.',
+    description: 'A simplified budgeting app created to help you keep track of which bills you\'ve paid.',
     repo: 'https://github.com/thinkful-ei18/adrian-budget-client',
-    link: ''
+    link: 'http://adrian-budget-app.netlify.com/'
   }
 ];
 
