@@ -17,7 +17,7 @@ export default function AboutMe(props) {
           </p>
         </section>
           <p>
-            I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming video games.
+            I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming gameplay.
           </p>
         <section>
         <h2 className='section-header'>About Me</h2>
