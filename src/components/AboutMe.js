@@ -22,7 +22,7 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>About Me</h2>
           <p className='contact'>
-            Currently, I'm looking for a full-time job and I'd love the chance to work on a team with diverse, communicative developers. Feel free to <a
+            Currently, I'm looking for a full-time job and I'd love the chance to work on a diverse team of awesome developers. Feel free to <a
             className='email' href="mailto:adriantoddross@gmail.com">email me</a> with any opportunties.
           </p>
         </section>

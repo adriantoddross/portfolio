@@ -14,6 +14,9 @@ export default function Links(props) {
         <li>
           <a className='linkedin' href="https://www.linkedin.com/in/adriantross/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
+        <li>
+          <a href="https://twitter.com/adriantoddross" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </li>
       </ul>
     </div>
   );
