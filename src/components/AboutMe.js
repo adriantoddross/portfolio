@@ -16,9 +16,9 @@ export default function AboutMe(props) {
             I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with NodeJS and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, usability, and inclusion.
           </p>
         </section>
-          {/* <p>
+          <p>
             I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming video games.
-          </p> */}
+          </p>
         <section>
         <h2 className='section-header'>About Me</h2>
           <p className='contact'>

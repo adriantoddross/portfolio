@@ -96,13 +96,12 @@ a:focus { color: #bb1122 !important }
 
 .project-image-container {
   border-radius: 5px;
-  padding: 25px;
   width: 100%;
 }
 
 .project-image {
   display: block;
-  margin: 0 auto;
+  padding: 15px;
   max-width: 100%;
   max-height: 100%;
   border-radius: 5px;
@@ -119,20 +118,14 @@ a:focus { color: #bb1122 !important }
   text-transform: uppercase;
 }
 
-.SafeR > div {
-  background-color: rgb(162, 209, 172);
-}
-
 .SafeR img {
-  box-shadow: 3px 3px 7px 2px rgb(87, 168, 104);
-}
-
-.Simlify > div {
-  background-color: rgb(150, 157, 201);
+  background-color: rgb(162, 209, 172);
+  /* box-shadow: 3px 3px 7px 2px rgb(87, 168, 104); */
 }
 
 .Simlify img {
-  box-shadow: 3px 3px 7px 2px  rgb(55, 63, 110);
+  background-color: rgb(150, 157, 201);
+  /* box-shadow: 3px 3px 7px 2px  rgb(55, 63, 110); */
 }
 
 .footer {
@@ -166,33 +159,16 @@ footer p:nth-child(2) {
   }
 
   .project-list {
-    flex-flow: row wrap;
     padding: 100px 0px;
   }
 
   .project {
-    padding: 25px;
     margin: 30px 0px;
-    width: 500px;
-  }
-
-  .project-desc {
-    height: 200px;
-  }
-
-  .project-stack {
-    height: 145px;
-  }
-
-  .project-image-container {
-    height: auto;
-    width: 500px;
-    /* margin: 0 auto; */
+    width: 100%;
   }
 
   .project-image {
-    height: 300px;
-    width: 500px;
+  padding: 30px;
   }
 
   .footer {
