@@ -81,6 +81,7 @@ a:focus { color: #bb1122 !important }
   border-top: 1px solid rgb(223, 223, 223);
   padding: 50px 0px;
   margin: 50px 0px;
+
 }
 
 .project {
@@ -106,8 +107,9 @@ a:focus { color: #bb1122 !important }
 }
 
 .project-image, .project {
-  margin: 0;
-  max-width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .project-link, .project-repo {
@@ -126,6 +128,10 @@ a:focus { color: #bb1122 !important }
   padding: 0;
   margin: 0;
   text-transform: uppercase;
+}
+
+.project-collab-title {
+  font-size: 100%;
 }
 
 .footer {
@@ -174,7 +180,7 @@ footer p:nth-child(2) {
     flex-flow: row wrap;
   }
 
-  .project-image {
+  .project-image img {
     flex: 1;
   }
 
@@ -211,15 +217,26 @@ footer p:nth-child(2) {
 }
 
 @media only screen and (min-width: 1440px) {
+  .App {
+    padding: 10vw;
+  }
+
+  .project-container {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
   .project-image {
     flex: 70%;
+    align-self: center;
+    display: initial;
+    max-width: 75%;
   }
 
   .project-info {
-    flex: 30%;
-
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+
     padding-top: 0px;
     padding-left: 40px;
   }
