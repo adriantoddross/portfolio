@@ -16,7 +16,7 @@ const projects = [
     link: 'https://keen-jang-ca814b.netlify.com/'
   },
   {
-    image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1528352170/windfall-preview.gif',
+    image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1527625925/Simlify%20Preview.png',
     title: 'Windfall',
     stack: 'Express.js, React JS, React Redux, Redux Forms, PostgresQL, knex.js, Heroku, Netlify',
     description: 'Create a list of bills and see your net income.',
