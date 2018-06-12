@@ -10,11 +10,11 @@ export default function Project(props) {
         <div className='project-half1'>
           <h2 className='project-title'>{props.title}</h2>
           <p className='project-desc'>{props.description}</p>
-          <a className='project-link' href={props.link}>Live Demo</a>
         </div>
         <div className='project-half2'>
           <h2 className='project-stack-title'>Development Stack</h2>
           <p className='project-stack'>{props.stack}</p>
+          <a className='project-link' href={props.link}>Live Demo</a>
           <a className='project-repo' href={props.repo}>Github Repo</a>
         </div>
       </div>

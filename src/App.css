@@ -92,6 +92,10 @@ a:focus { color: #bb1122 !important }
   overflow: auto;
 }
 
+.project-half1, .project-half2 {
+  padding-top: 15px;
+}
+
 .project-title {
   font-weight: bold;
   padding: 0;
@@ -187,6 +191,7 @@ footer p:nth-child(2) {
 
   .project-half1, .project-half2 {
     flex: 1;
+    padding-top: 0px;
   }
 
   .project-half1 {
@@ -195,6 +200,11 @@ footer p:nth-child(2) {
 
   .project-title, .project-stack-title {
     height: 50px;
+  }
+
+  .project-link, .project-repo {
+    display: inline-block;
+    align-self: flex-end;
   }
 
   .footer {
