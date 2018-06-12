@@ -149,10 +149,10 @@ footer p:nth-child(2) {
 
   .main-content {
     border-top: 1px solid rgb(223, 223, 223);
-    line-height: 50px;
   }
 
   #about, .links-container {
+    line-height: 50px;
     font-size: 150%;
   }
 
@@ -192,7 +192,8 @@ footer p:nth-child(2) {
   }
 
   .project-half1 {
-    margin-right: 15px;
+    margin-right: 2em;
+    padding-right: 2em;
   }
 
   .project-title, .project-stack-title {
@@ -207,6 +208,31 @@ footer p:nth-child(2) {
   .footer {
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 1440px) {
+  .project-image {
+    flex: 70%;
+  }
+
+  .project-info {
+    flex: 30%;
+
+    display: flex;
+    flex-flow: column;
+    padding-top: 0px;
+    padding-left: 40px;
+  }
+
+  .project-half1 {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .project-stack {
+    padding-bottom: 25px;
+  }
+
 }
 
 
