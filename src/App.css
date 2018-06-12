@@ -27,8 +27,7 @@ a:focus { color: #bb1122 !important }
 
 
 .main-content {
-  font-size: 125%;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .section-header, .a11y-text {
@@ -149,6 +148,7 @@ footer p:nth-child(2) {
 
   .main-content {
     border-top: 1px solid rgb(223, 223, 223);
+    line-height: 50px;
   }
 
   #about, .links-container {
