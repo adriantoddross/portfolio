@@ -50,7 +50,7 @@ a:focus { color: #bb1122 !important }
 
 .links {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
@@ -116,20 +116,6 @@ a:focus { color: #bb1122 !important }
   color: #2B2B2B;
   font-size: 75%;
   text-transform: uppercase;
-}
-
-.SafeR img {
-  background-color: rgb(162, 209, 172);
-  /* box-shadow: 3px 3px 7px 2px rgb(87, 168, 104); */
-}
-
-.Simlify img {
-  background-color: rgb(150, 157, 201);
-  /* box-shadow: 3px 3px 7px 2px  rgb(55, 63, 110); */
-}
-
-.Windfall img {
-  /* background-color: rgb(190, 190, 190); */
 }
 
 .footer {
