@@ -88,8 +88,6 @@ a:focus { color: #bb1122 !important }
 
   padding: 50px 0px;
   list-style: none;
-  height: auto;
-  overflow: auto;
 }
 
 .project-half1, .project-half2 {
@@ -107,8 +105,7 @@ a:focus { color: #bb1122 !important }
   margin: 0;
 }
 
-.project-image {
-  height: auto;
+.project-image, .project {
   margin: 0;
   max-width: 100%;
 }
@@ -156,7 +153,7 @@ footer p:nth-child(2) {
   }
 
   #about, .links-container {
-    font-size: 175%;
+    font-size: 150%;
   }
 
   .banner {
@@ -208,7 +205,6 @@ footer p:nth-child(2) {
   }
 
   .footer {
-    font-size: 140%;
     text-align: center;
   }
 }
