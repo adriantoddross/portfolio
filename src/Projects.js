@@ -21,7 +21,7 @@ const projects = [
     stack: 'Express.js, React JS, React Redux, Redux Forms, PostgresQL, knex.js, Heroku, Netlify',
     description: 'Create a list of bills and see your net income.',
     repo: 'https://github.com/thinkful-ei18/adrian-budget-client',
-    link: 'http://adrian-budget-app.netlify.com/'
+    link: 'https://windfall-app.netlify.com'
   }
 ];
 
