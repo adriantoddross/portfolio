@@ -2,7 +2,7 @@
 
 .App {
   color: #575757;
-  padding: 7vw;
+  padding: 5vw;
 }
 
 .App h1, h2 {
@@ -85,26 +85,29 @@ a:focus { color: #bb1122 !important }
 }
 
 .project {
-  padding: 50px 0px;
   flex: 1;
+
+  padding: 50px 0px;
   list-style: none;
+  height: auto;
+  overflow: auto;
 }
 
 .project-title {
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
-.project-image-container {
-  border-radius: 5px;
-  width: 100%;
+.project-desc {
+  padding: 0;
+  margin: 0;
 }
 
 .project-image {
-  display: block;
-  padding: 15px;
+  height: auto;
+  margin: 0;
   max-width: 100%;
-  max-height: 100%;
-  border-radius: 5px;
 }
 
 .project-link, .project-repo {
@@ -112,9 +115,16 @@ a:focus { color: #bb1122 !important }
   margin-right: 25px;
 }
 
-.project-stack {
+.project-stack-title {
+  padding: 0;
+  margin: 0;
+}
+
+.project-stack, .project-stack-title {
   color: #2B2B2B;
   font-size: 75%;
+  padding: 0;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -135,11 +145,13 @@ footer p:nth-child(2) {
   font-weight: normal;
 }
 
-/* For desktop: */
 @media only screen and (min-width: 768px) {
 
   .main-content {
     border-top: 1px solid rgb(223, 223, 223);
+  }
+
+  #about, .links-container {
     font-size: 175%;
   }
 
@@ -154,11 +166,35 @@ footer p:nth-child(2) {
 
   .project {
     margin: 30px 0px;
-    width: 100%;
+  }
+
+  .project-container {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .project-image {
-  padding: 30px;
+    flex: 1;
+  }
+
+  .project-info {
+    flex: 1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 15px;
+  }
+
+  .project-half1, .project-half2 {
+    flex: 1;
+  }
+
+  .project-half1 {
+    margin-right: 15px;
+  }
+
+  .project-title, .project-stack-title {
+    height: 50px;
   }
 
   .footer {

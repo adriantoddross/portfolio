@@ -1,16 +1,23 @@
 import React from 'react';
 
 export default function Project(props) {
+  const projectName = props.title;
+
   return (
-    <div className={props.title}>
-      <div className='project-image-container'>
-        <img className='project-image' src={props.image} alt="null"/>
+    <div className={`${projectName} project-container`}>
+      <img className='project-image' src={props.image} alt="null"/>
+      <div className='project-info'>
+        <div className='project-half1'>
+          <h2 className='project-title'>{props.title}</h2>
+          <p className='project-desc'>{props.description}</p>
+          <a className='project-link' href={props.link}>Live Demo</a>
+        </div>
+        <div className='project-half2'>
+          <h2 className='project-stack-title'>Development Stack</h2>
+          <p className='project-stack'>{props.stack}</p>
+          <a className='project-repo' href={props.repo}>Github Repo</a>
+        </div>
       </div>
-      <h2 className='project-title'>{props.title}</h2>
-      <p className='project-desc'>{props.description}</p>
-      <p className='project-stack'>	<span className='a11y-text'> Stack used: &#x2014;</span> {props.stack}</p>
-      <a className='project-repo' href={props.repo}>Github Repo</a>
-      <a className='project-link' href={props.link}>Live Demo</a>
     </div>
   );
 }
