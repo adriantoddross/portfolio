@@ -4,8 +4,8 @@ const projects = [
     title: 'SafeR',
     description: 'Our team of five created a neighborhood oriented social networking app to view and report local incidents in your community. We used Google Maps & Places APIs and also created a React Native app alongeside our web app.',
     stack: 'Express.js, React JS, React Native, React Redux, Redux Forms, MongoDB, Mongoose.js, Travis CI, Heroku, Netlify',
-    repo: 'https://github.com/thinkful-ei18/maajac-client',
-    link: 'https://safer.netlify.com/'
+    repo: 'https://github.com/adriantoddross/maajac-client',
+    link: 'https://be-safer.herokuapp.com/'
   },
   {
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1528838204/Simlify_Browser_Window.png',
