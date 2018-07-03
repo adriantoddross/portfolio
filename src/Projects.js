@@ -12,8 +12,8 @@ const projects = [
     title: 'Simlify',
     stack: 'Singly Linked List (for spaced repetition algorithm), Express.js, React JS, React Redux, Redux Forms, MongoDB, Mongoose.js, Heroku, Netlify',
     description: 'Working with a partner, we re-created a singly linked list to use with MongoDB and implemented spaced repetition to teach Simlish, a fictional language featured in EA Games\' The Sims franchise.',
-    repo: 'https://github.com/thinkful-ei18/simlify_client',
-    link: 'https://keen-jang-ca814b.netlify.com/'
+    repo: 'https://github.com/adriantoddross/simlify_client',
+    link: 'https://simlify.herokuapp.com/'
   },
   {
     image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1528838462/Windfall_Browser_Window.png',
