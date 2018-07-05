@@ -35,16 +35,7 @@ a:focus { color: #bb1122 !important }
 }
 
 .skip-nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 0;
-}
-
-.skip-nav a {
-  flex: 1;
-  padding: 10px;
-  color: #FEFEFE;
+  display: none;
 }
 
 .links {
@@ -213,6 +204,21 @@ footer p:nth-child(2) {
 
   .footer {
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .skip-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .skip-nav a {
+    flex: 1;
+    padding: 10px;
+    color: #FEFEFE;
   }
 }
 
