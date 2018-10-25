@@ -4,12 +4,12 @@ export default function AboutMe(props) {
   return (
     <div id='about'>
         <h1 className='section-header'>Adrian Ross: Full Stack Web Dev & Graphic Designer</h1>
-        <section className='about'>
+        {/* <section className='about'>
           <h2 className='section-header'>About Me</h2>
           <p className='intro'>
             Hi! I'm <b>Adrian</b>, a full stack Javascript developer and graphic designer living in Atlanta, Georgia.
           </p>
-        </section>
+        </section> */}
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
