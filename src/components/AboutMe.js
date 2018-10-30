@@ -4,20 +4,26 @@ export default function AboutMe(props) {
   return (
     <div id='about'>
         <h1 className='section-header'>Adrian Ross: Full Stack Web Dev & Graphic Designer</h1>
-        <section className='about'>
+        {/* <section className='about'>
           <h2 className='section-header'>About Me</h2>
           <p className='intro'>
             Hi! I'm <b>Adrian</b>, a full stack Javascript developer and graphic designer living in Atlanta, Georgia.
           </p>
-        </section>
+        </section> */}
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
-            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with Express.js and React JS, using tools like Travis CI, Heroku and Netlify for deployment. I care a lot about accessibility, usability, and inclusion.
+            I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with Javascript, Express.js and React JS, using tools like Travis CI, Heroku and Netlify for deployment. 
           </p>
+          <section>
+          <p>
+              I spend my weekdays learning and building new things: right now, I'm experimenting with <a href="https://github.com/adriantoddross/huntshowdown-soloevent" target="_blank" rel="noopener noreferrer">data visualization in 
+              React</a> and working through <i>Mathematical Thinking in Computer Science</i> on <a href="https://www.coursera.org/learn/what-is-a-proof" target="_blank" rel="noopener noreferrer">Coursera</a>.
+            </p>
+          </section>
         </section>
           <p>
-            I spend my free time playing video games, listening to podcasts, and enjoying the company of my wife (and my fur babies!). I dabble in a lot of creative hobbies like audio engineering, recording & producing music, and streaming gameplay.
+            I spend my free time playing video games, listening to podcasts, and spending time with my wife (and my cat!). I dabble in a lot of nerdy and creative hobbies like tabletop gaming and making music.
           </p>
         <section>
         <h2 className='section-header'>About Me</h2>
