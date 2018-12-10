@@ -15,12 +15,6 @@ export default function AboutMe(props) {
           <p className='experience'>
             I have experience building and deploying web apps and working collaboratively through pair programming and as part of a team. I mostly work with Javascript, Express.js and React JS, using tools like Travis CI, Heroku and Netlify for deployment. 
           </p>
-          <section>
-          <p>
-              I spend my weekdays learning and building new things: right now, I'm experimenting with <a href="https://github.com/adriantoddross/huntshowdown-soloevent" target="_blank" rel="noopener noreferrer">data visualization in 
-              React</a> and working through <i>Mathematical Thinking in Computer Science</i> on <a href="https://www.coursera.org/learn/what-is-a-proof" target="_blank" rel="noopener noreferrer">Coursera</a>.
-            </p>
-          </section>
         </section>
           <p>
             I spend my free time playing video games, listening to podcasts, and spending time with my wife (and my cat!). I dabble in a lot of nerdy and creative hobbies like tabletop gaming and making music.
@@ -28,7 +22,7 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>About Me</h2>
           <p className='contact'>
-            Currently, I'm looking for a full-time job and I'd love the chance to work on a diverse team of awesome developers. Feel free to <a
+            Currently, I'm looking for a full-time role and I'd love the chance to work on a diverse team of awesome developers. Feel free to <a
             className='email' href="mailto:adriantoddross@gmail.com">email me</a> with any opportunties.
           </p>
         </section>
