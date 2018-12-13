@@ -13,16 +13,16 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
-            I'm a junior developer with experience building and deploying web apps and working collaboratively through pair programming or as part of a team. I work with Javascript, Node.js and React, using tools like Travis CI, Heroku and Netlify for deployment and CICD. 
+          I'm a jr. web developer and graphic designer with experience building and deploying mobile and web apps. I'm comfortable working collaboratively through pair programming, as part of a team, or solo. I mostly work with Javascript, Node.js and React.
           </p>
         </section>
           <p>
-            I spend my free time playing video games, listening to podcasts, and spoiling my cat. I dabble in a lot of nerdy and creative hobbies like tabletop gaming and making music.
+            I value balance and perspective, keep it real, and treat everyone how I'd like to be treated. I'm independent, comfortable in my own skin, and live happily outside of the norm. I care a lot about doing what's best for the user and creating user experiences that are inclusive and accessible.
           </p>
         <section>
         <h2 className='section-header'>About Me</h2>
           <p className='contact'>
-            Currently, I'm looking for a full-time role and I'd love the chance to work alongside (and be mentored by) a diverse team of awesome developers. Feel free to <a
+            I'm a freelancer at heart, but am currently looking for a full-time role. I'd love the chance to work alongside (and be mentored by) a diverse team of awesome developers. Feel free to <a
             className='email' href="mailto:adriantoddross@gmail.com">email me</a> with any opportunties.
           </p>
         </section>
