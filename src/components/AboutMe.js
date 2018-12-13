@@ -13,7 +13,7 @@ export default function AboutMe(props) {
         <section>
         <h2 className='section-header'>Experience</h2>
           <p className='experience'>
-          I'm a jr. web developer and graphic designer with experience building and deploying mobile and web apps. I'm comfortable working collaboratively through pair programming, as part of a team, or solo. I mostly work with Javascript, Node.js and React.
+          I'm a jr. web developer and graphic designer with experience building and deploying mobile and web apps. I'm comfortable working collaboratively through pair programming, as part of a team, or solo. I mostly work with Javascript, Node.js and React, but also create Squarespace and Wordpress sites.
           </p>
         </section>
           <p>
