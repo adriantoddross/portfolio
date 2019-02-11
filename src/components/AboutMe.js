@@ -17,7 +17,7 @@ export default function AboutMe(props) {
           </p>
         </section>
           <p>
-            I value balance and perspective, keep it real, and treat everyone how I'd like to be treated. I'm independent, comfortable in my own skin, and live happily outside of the norm. I care a lot about doing what's best for the user and creating user experiences that are inclusive and accessible. Full disclosure, I basically plagiarized this all from <a  href="https://www.bukwild.com/about" target="_blank" rel="noopener noreferrer">Bukwild</a> but seriously, they said it much better than I ever could.
+            I value balance and perspective, keep it real, and treat everyone how I'd like to be treated. I'm independent, comfortable in my own skin, and live happily outside of the norm. I care a lot about doing what's best for the user and creating user experiences that are inclusive and accessible. Full disclosure; I basically plagiarized the previous sentences from <a href="https://www.bukwild.com/about" target="_blank" rel="noopener noreferrer">Bukwild</a> but they said it much better than I ever could.
           </p>
         <section>
         <h2 className='section-header'>About Me</h2>
