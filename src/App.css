@@ -194,7 +194,7 @@ footer p:nth-child(2) {
   }
 
   .project-title, .project-stack-title {
-    height: 50px;
+    height: auto;
   }
 
   .project-link, .project-repo {
