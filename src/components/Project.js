@@ -3,6 +3,9 @@ import React from 'react';
 export default function Project(props) {
   const projectName = props.title;
 
+  const repoLink = (props.repo) ? <a className='project-repo' href={props.repo}>Github Repo</a> : null;
+  const projectLink = (props.category === 'website') ? <a className='project-link' href={props.link}>View Website</a> : <a className='project-link' href={props.link}>Live Demo</a>;
+
   return (
     <div className={`${projectName} project-container`}>
       <img className='project-image' src={props.image} alt="null"/>
@@ -14,8 +17,8 @@ export default function Project(props) {
         <div className='project-half2'>
           <h2 className='project-stack-title'>Development Stack</h2>
           <p className='project-stack'>{props.stack}</p>
-          <a className='project-link' href={props.link}>Live Demo</a>
-          <a className='project-repo' href={props.repo}>Github Repo</a>
+          {projectLink}
+          {repoLink}
         </div>
       </div>
     </div>
@@ -25,7 +28,7 @@ export default function Project(props) {
 Project.defaultProps = {
   image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1526329107/100px_map_icon_traffic_construction.png',
   title: 'Under Construction',
-  description: "This project isn't finished yet but it'll be added soon!",
-  repo: 'https://github.com/adriantoddross',
-  link: 'https://github.com/adriantoddross'
-}
+  description: 'This project isn\'t finished yet but it\'ll be added soon!',
+  // repo: 'https://github.com/adriantoddross',
+  // link: 'https://github.com/adriantoddross'
+};
