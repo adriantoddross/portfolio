@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1549920429/goldmaneagle.png',
+    image: 'https://res.cloudinary.com/adriantoddross/image/upload/v1549921429/goldmaneagle.png',
     title: 'Goldman Eagle Advertising',
     description: 'Goldman Eagle Advertising is a marketing and branding firm for small to mid-sized businesses. Squarespace was a great option to get an initial iteration of their site up and running and now that the site has its wings it\'s ready to soar!',
     stack: 'Squarespace (content management system), CSS, Adobe Illustrator, Adobe Photoshop',
