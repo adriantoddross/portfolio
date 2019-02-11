@@ -4,7 +4,13 @@ export default function Project(props) {
   const projectName = props.title;
 
   const repoLink = (props.repo) ? <a className='project-repo' href={props.repo}>Github Repo</a> : null;
+  // Omit the repo link if the project doesn't have one.
+
   const projectLink = (props.category === 'website') ? <a className='project-link' href={props.link}>View Website</a> : <a className='project-link' href={props.link}>Live Demo</a>;
+  /* Render 'view website' for website, and 'live demo' for apps.
+  * In the future, this could be a function that return various link titles
+  * with returns based on if or switch statements
+  */
 
   return (
     <div className={`${projectName} project-container`}>
