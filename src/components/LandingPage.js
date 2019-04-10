@@ -1,10 +1,11 @@
 import React from 'react';
+import Logo from '../logo.svg';
 
 export default function LandingPage(props) {
   return (
     <div>
       <div>
-        <img src="" alt=""/>
+        <img src={Logo} alt="null"/>
         <header>
           <p><strong>Adrian Ross</strong> is a web developer and graphic designer in Atlanta, GA.</p>
           <nav>
