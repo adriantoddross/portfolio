@@ -22,7 +22,7 @@ export default function LandingPage(props) {
       </div>
       <div></div>
       <div>
-        <h2>I create websites and apps that are optimized for brand establishment and inbound marketing.</h2>
+        <h2>I create websites and apps that are optimized for branding and inbound marketing.</h2>
         <div></div>
         <p>Your website or app should function as a digital marketing funnel, uplifted by pillars of content like videos, blog posts, or episodes of a podcast. I give you all the tools needed to share content that benefits your customers and establish the rapport needed to see results from calls-to-action that benefit your business.</p>
       </div>
