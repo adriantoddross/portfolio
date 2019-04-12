@@ -7,7 +7,7 @@ export default function LandingPage(props) {
       <div>
         <img src={Logo} alt="null"/>
         <header>
-          <p><strong>Adrian Ross</strong> is a web developer and graphic designer in Atlanta, GA.</p>
+          <p><strong>Adrian Ross</strong> is a jr. web developer and graphic designer in Atlanta, GA.</p>
           <nav>
             <ul>
               <li>
@@ -18,12 +18,13 @@ export default function LandingPage(props) {
               </li>
             </ul>
           </nav>
+          <hr/>
         </header>
       </div>
       <div></div>
       <div>
         <h2>I create websites and apps that are optimized for branding and inbound marketing.</h2>
-        <div></div>
+        <hr/>
         <p>Your website or app should function as a digital marketing funnel, uplifted by pillars of content like videos, blog posts, or episodes of a podcast. I give you all the tools needed to share content that benefits your customers and establish the rapport needed to see results from calls-to-action that benefit your business.</p>
       </div>
       <body>
@@ -45,8 +46,21 @@ export default function LandingPage(props) {
             <li><a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">PostgresQL</a></li>
           </ul>
         </div>
+        <div>
+          <img src="" alt=""/>
+          <h3>I use design sprints to provide you with 20/20 foresight.</h3>
+          <hr/>
+          <p>Design sprints allow me to fail quickly and understand the problems I'm trying to solve without wasting valuable time and resources. The prototype created from this process can be used for user testing and presentations before doubling down on a project, MVP, or proof-of-concept.</p>
+        </div>
+        <div>
+          <img src="" alt=""/>
+          <h3>Short times to completion backed up by long-term support.</h3>
+          <hr/>
+          <p>To complete projects quickly, I carefully narrow down the scope of a project, enabling me to promptly prioritize and address issues throughout the development process. After our project is complete, I'm committed to improving it over time,providing technical support, consultation and updates for the project.</p>
+        </div>
       </body>
       <footer>
+        <hr/>
         <div>
           <h3>Say what's up.</h3>
           <ul>
