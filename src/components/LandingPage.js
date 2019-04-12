@@ -47,7 +47,14 @@ export default function LandingPage(props) {
         </div>
       </body>
       <footer>
-
+        <div>
+          <h3>Say what's up.</h3>
+          <ul>
+            <li><a href="tel:+14042107154">404-210-7154</a></li>
+            <li><a href="mailto:adriantoddross@gmail.com">adriantoddross@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/adriantoddross/" target="_blank" rel="noopener noreferrer">@adriantoddross</a></li>
+          </ul>
+        </div>
       </footer>
     </div>
   );
