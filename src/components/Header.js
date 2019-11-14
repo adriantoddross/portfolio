@@ -18,7 +18,7 @@ export default class Header extends Component {
         </nav>
         <header id='header' className="banner" role='banner'>
           <h1>
-            Hi! I'm <span className='name'>Adrian Ross</span>, a web developer and graphic designer in Atlanta, Georgia.
+            Yo! I'm <span className='name'>Adrian Ross</span>, a web developer and graphic designer in Atlanta, Georgia.
           </h1>
         </header>
       </div>

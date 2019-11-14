@@ -14,7 +14,7 @@ export default function Footer(props) {
           Hosted on Netlify. Code is licensed under MIT and available on Github. All images and graphics are licensed under CC BY-SA.
         </p>
         <p>
-          © 2018 Adrian Ross
+          © 2019 Adrian Ross
         </p>
       </footer>
     </div>
